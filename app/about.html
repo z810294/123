@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>My Web </title>
+<meta charset="UTF-8"> <!--中文字-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 手機格式-->
+<link href = "../dist/css/bootstrap.css" rel="stylesheet">
+<script src="../dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<div class = "navbar navbar-inverse navbar-static-top">
+  <div class = "container">
+	<a href = "#" class  = "navbar-brand">考試系統</a>
+	<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+	    <span class = "icon-bar"></span>
+        <span class = "icon-bar"></span> 
+        <span class = "icon-bar"></span> 		
+	</button>
+	<div class = "collapse navbar-collapse navHeaderCollapse">
+	
+		<ul class = "nav navbar-nav navbar-right">
+			<li id="tabHome" class="tab"><a href = "home.html">Home</a></li>
+			<li id="tabSignin" class="tab"><a href = "signin.html">Signin</a></li>
+			<li id="tabRegister" class="tab"><a href = "register.html">Register</a></li>
+			<li id="tabExam" class="tab"><a href = "exam.html">Exam</a></li>
+			<li id="tabAbout" class="active"><a href = "about.html">About</a></li>
+			
+		</ul>
+
+	</div>
+
+</div>
+</div>
+<!--上面為上面框架  下面為表格 -->
+
+   <div id="panelAbout" class="container panel">
+      About
+   </div> <!-- /container -->			
+
+   
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+	<script src="../js/collapse.js"></script>
+
+</body>
+</html>
