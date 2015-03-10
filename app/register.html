@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>My Web </title>
+<meta charset="UTF-8"> <!--中文字-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 手機格式-->
+<link href = "../dist/css/bootstrap.css" rel="stylesheet">
+<script src="../dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<div class = "navbar navbar-inverse navbar-static-top">
+  <div class = "container">
+	<a href = "#" class  = "navbar-brand">考試系統</a>
+	<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+	    <span class = "icon-bar"></span>
+        <span class = "icon-bar"></span> 
+        <span class = "icon-bar"></span> 		
+	</button>
+	<div class = "collapse navbar-collapse navHeaderCollapse">
+	  
+	
+		<ul class = "nav navbar-nav navbar-right">
+			<li id="tabHome" class="tab"><a href = "home.html">Home</a></li>
+			<li id="tabSignin" class="tab"><a href = "signin.html">Signin</a></li>
+			<li id="tabRegister" class="active"><a href = "register.html">Register</a></li>
+			<li id="tabExam" class="tab"><a href = "exam.html">Exam</a></li>
+			<li id="tabAbout" class="tab"><a href = "about.html">About</a></li>
+			
+		</ul>
+
+	</div>
+
+</div>
+</div>
+<!--上面為上面框架  下面為表格 -->
+
+
+
+
+
+	
+    <div id="panelSignin" class="container panel">
+	 <div class = "jumbotron" >
+<form class="form-horizontal" role="form">
+  <h2 class="form-signin-heading">Register</h2>
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-3">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+    <div class="col-sm-3">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+  </div>
+</form>
+	</div>
+    </div> <!-- /container -->
+   
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+	<script src="../js/collapse.js"></script>
+
+</body>
+</html>
